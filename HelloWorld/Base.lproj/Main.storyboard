@@ -17,23 +17,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4bI-du-fGs">
-                                <rect key="frame" x="16" y="499" width="398" height="399"/>
+                                <rect key="frame" x="16" y="488.66666666666674" width="398" height="409.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2LJ-1A-df2">
-                                <rect key="frame" x="16" y="59" width="398" height="399"/>
+                                <rect key="frame" x="16" y="59.000000000000028" width="398" height="409.66666666666674"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="2LJ-1A-df2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0TS-ZF-Mmp"/>
-                            <constraint firstItem="4bI-du-fGs" firstAttribute="top" secondItem="2LJ-1A-df2" secondAttribute="bottom" constant="8" id="0XO-PQ-c0S"/>
-                            <constraint firstItem="4bI-du-fGs" firstAttribute="top" secondItem="2LJ-1A-df2" secondAttribute="bottom" constant="8" id="9c8-hS-HLU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2LJ-1A-df2" secondAttribute="trailing" constant="16" id="ayL-np-Ywj"/>
-                            <constraint firstItem="4bI-du-fGs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="stJ-E2-tDL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4bI-du-fGs" secondAttribute="trailing" constant="16" id="uRk-gx-buc"/>
+                            <constraint firstItem="4bI-du-fGs" firstAttribute="top" secondItem="2LJ-1A-df2" secondAttribute="bottom" constant="20" id="5bT-bA-VhT"/>
+                            <constraint firstItem="4bI-du-fGs" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="6sx-Au-hQV"/>
+                            <constraint firstItem="2LJ-1A-df2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8dR-L9-uQ0"/>
+                            <constraint firstItem="4bI-du-fGs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KKR-ab-CV1"/>
+                            <constraint firstItem="4bI-du-fGs" firstAttribute="height" secondItem="2LJ-1A-df2" secondAttribute="height" id="Qnz-NO-YDE"/>
+                            <constraint firstItem="2LJ-1A-df2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="SLi-c7-ZFj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4bI-du-fGs" secondAttribute="trailing" constant="16" id="Vu2-Dc-TPp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2LJ-1A-df2" secondAttribute="trailing" constant="16" id="aWY-Ho-vqt"/>
                         </constraints>
                     </view>
                 </viewController>
